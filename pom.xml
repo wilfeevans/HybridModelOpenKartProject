@@ -6,8 +6,8 @@
   
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>21</maven.compiler.source>
-		<maven.compiler.target>21</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
   
   <dependencies>
@@ -198,7 +198,7 @@
 				<configuration>
 					<testFailureIgnore> false </testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>src\test\resources\runner\testng.xml</suiteXmlFile>
+						<suiteXmlFile>src\test\resources\TestRunner\grouping.xml</suiteXmlFile>
 									
 				</suiteXmlFiles>
 				</configuration>

@@ -183,7 +183,7 @@ public class BaseClass
 				
 		if(driver!=null)
 		{
-			Thread.sleep(Duration.ofMillis(3000));
+			Thread.sleep(4000);
 			driver.quit();
 			System.out.println("Quitting Driver");
 		}

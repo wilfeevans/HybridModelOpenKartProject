@@ -59,6 +59,7 @@ public class TC002_doLogin extends BaseClass
 						     
 			     if(myaccountpage.TitleValidation().equals("My Account"))
 			     {
+			    	 Thread.sleep(5000);
 			    	 System.out.println("Title------>" +myaccountpage.TitleValidation());
 			    	 Assert.assertTrue(true);			    	 
 			    	 myaccountpage.doLogout();
@@ -77,7 +78,7 @@ public class TC002_doLogin extends BaseClass
 			    
 			 if(myaccountpage.TitleValidation().equalsIgnoreCase("My Account"))
 		     {
-				 Thread.sleep(Duration.ofSeconds(5));;
+				 Thread.sleep(6000);
 				 System.out.println("Title------>" +myaccountpage.TitleValidation());
 		    	 Assert.assertTrue(false);
 		    	 myaccountpage.doLogout();
